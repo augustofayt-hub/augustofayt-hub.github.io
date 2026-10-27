@@ -71,7 +71,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-
 .service li::marker { color: var(--gold); }
 
 /* Trabajos */
-.reels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.reels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
 figure { margin: 0; display: grid; gap: 14px; min-width: 0; }
 video { width: 100%; max-width: 100%; aspect-ratio: 9 / 16; border-radius: 18px; background: var(--surface); display: block; object-fit: cover; }
 figcaption { display: grid; gap: 4px; }
@@ -112,7 +112,7 @@ footer { padding-block: 28px 40px; border-top: 1px solid var(--line); color: var
   section { padding-block: 48px; }
   .service { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .steps { grid-template-columns: minmax(0, 1fr); gap: 22px; }
-  .reels { gap: 16px; }
+  .reels { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
   .site { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   figcaption strong { font-size: 17px; }
 }
@@ -199,6 +199,14 @@ footer { padding-block: 28px 40px; border-top: 1px solid var(--line); color: var
           <strong>Creative process with Klimt</strong>
           <span>From a book on the shelf to drawing exercises and a finished collage.</span>
           <div class="tags"><span class="tag">30 s</span><span class="tag">9:16</span><span class="tag">Instagram</span></div>
+        </figcaption>
+      </figure>
+      <figure>
+        <video src="../media/residencia_valle_bravo_v1.mp4" poster="../media/residencia_valle_bravo_v1.jpg" controls muted playsinline preload="metadata" aria-label="Real estate reel for a residence in Valle de Bravo"></video>
+        <figcaption>
+          <strong>Valle de Bravo residence</strong>
+          <span>Real estate reel: vertical pans through the original footage, one caption per space and original music.</span>
+          <div class="tags"><span class="tag">25 s</span><span class="tag">9:16</span><span class="tag">Real estate</span></div>
         </figcaption>
       </figure>
     </div>
